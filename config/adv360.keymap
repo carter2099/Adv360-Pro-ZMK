@@ -70,11 +70,11 @@
 
         symbols {
             bindings = <
-&trans  &trans            &trans             &trans           &trans             &trans       &trans                                          &trans      &trans     &trans                &trans                 &trans          &trans           &trans
-&trans  &trans            &kp AT_SIGN        &kp POUND        &kp DOLLAR         &kp PERCENT  &trans                                          &trans      &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp PIPE        &trans           &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &trans       &trans  &trans  &trans      &trans     &trans   &trans      &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &trans            &kp TILDE          &kp PLUS         &kp EQUAL          &trans                       &trans      &trans                          &trans     &kp MINUS             &kp UNDERSCORE         &kp GRAVE       &trans           &trans
-&trans  &trans            &trans             &trans           &trans                          &trans  &trans  &trans      &kp LC(C)  &kp TAB  &kp ESCAPE             &trans                &trans                 &trans          &trans           &trans
+&trans  &trans            &trans             &trans           &trans          &trans       &trans                                             &trans   &trans     &trans                &trans                 &trans          &trans           &trans
+&trans  &trans            &kp AT_SIGN        &kp POUND        &kp DOLLAR      &kp PERCENT  &trans                                             &trans   &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp PIPE        &trans           &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp LEFT_SHIFT  &trans       &trans  &trans  &trans      &trans     &trans      &trans   &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&trans  &trans            &kp TILDE          &kp PLUS         &kp EQUAL       &trans                       &trans      &trans                          &trans     &kp MINUS             &kp UNDERSCORE         &kp GRAVE       &trans           &trans
+&trans  &trans            &trans             &trans           &trans                       &trans  &trans  &trans      &kp LC(C)  &kp ESCAPE  &kp TAB             &trans                &trans                 &trans          &trans           &trans
             >;
         };
 
