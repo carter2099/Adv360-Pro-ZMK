@@ -90,11 +90,11 @@
 
         system {
             bindings = <
-&trans  &trans  &trans  &trans        &trans           &trans  &trans                                      &trans  &trans  &trans            &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans           &trans  &trans                                      &trans  &trans  &trans            &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LC(LEFT)      &kp LC(RIGHT)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans           &trans                  &trans      &trans                  &trans  &kp C_PLAY_PAUSE  &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans                   &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans           &trans  &trans                                      &trans  &trans  &trans            &trans         &trans       &trans       &trans
+&trans  &trans  &trans  &trans        &trans           &trans  &trans                                      &trans  &trans  &trans            &trans         &trans       &trans       &trans
+&trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LC(LEFT)      &kp LC(RIGHT)  &kp LG(TAB)  &kp LC(TAB)  &trans
+&trans  &trans  &trans  &trans        &trans           &trans                  &trans      &trans                  &trans  &kp C_PLAY_PAUSE  &trans         &trans       &trans       &trans
+&trans  &trans  &trans  &trans        &trans                   &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans         &trans       &trans       &trans
             >;
         };
     };
